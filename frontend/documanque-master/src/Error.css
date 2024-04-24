@@ -1,0 +1,73 @@
+.ErrorBody {
+    font-family: Poppins;
+    background-color: var(--dark);
+    color: var(--back-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ErrorBody h1 {
+    font-size: 250px !important;
+    margin-bottom: -130px;
+}
+
+.ErrorBody h6 {
+    font-size: 125px !important;
+    letter-spacing: 10px;
+}
+
+.ErrorBody p {
+    font-size: 20px !important;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ErrorBody button {
+    border: 2px double var(--back-color);
+    border-radius: 130px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    color: var(--back-color);
+    background-color: var(--dark-purple);
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    padding: 0 5px 0 5px;
+}
+
+.ErrorBody button:hover {
+    color: var(--dark-purple);
+    background-color: var(--back-color);
+    padding: 0 15px 0 15px;
+}
+
+
+.ErrorBody a,
+.ErrorBody a:visited,
+.ErrorBody a:hover {
+    text-decoration: none;
+}
+
+.ErrorBody a:visited,
+.ErrorBody a:hover {
+    color: var(--dark);
+}
+
+@media (max-width : 500px) {
+    .ErrorBody h6 {
+        font-size: 70px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .ErrorBody p {
+        font-size: 18px !important;
+    }
+}
